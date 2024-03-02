@@ -1,0 +1,226 @@
+*{
+    transition: all 0.3s linear 0s;
+}
+body{
+    background-color: black;
+    color: #E3DBCB;
+    
+}
+.nav1{
+    
+    background-color: black;
+    color: #E3DBCB;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-image: url('SiteLogo.png');
+    background-size: cover;
+    height: 80px;
+    width: 250px;
+    border-radius: 2%;
+}
+.user{
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.userLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #E3DBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Contribute,.LogIn,.SignUp{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #E3DBCB;
+    width: 80px;
+    height: 90px;
+}
+.Contribute:hover{
+    border-bottom: 4px solid #E3DBCB;
+}
+.LogIn:hover{
+    border-bottom: 4px solid #E3DBCB;
+}
+.SignUp:hover{
+    border-bottom: 5px solid #E3DBCB;
+}
+#SelectLang{
+    background-color: #E3DBCB;
+    border-radius: 5%;
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 0px;
+}
+.nav2{
+    
+    background-color: #E3DBCB;
+    color: black;
+    display: flex;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.NavSearch{
+    margin: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    background-color: black;
+    color: #E3DBCB;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#search-input{
+    background-color: black;
+    color: #E3DBCB;
+    width: 200px;
+    height: 20px;
+}
+.NavFilter{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.filter{
+    width: 50px;
+    height: 25px;
+    background-color: black;
+    color: #E3DBCB;
+}
+.filter-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+}
+#main{
+    width: 100%;
+    height: 800px;
+}
+.row1,.row2,.row3,.row4,.row5,.row6,.row7{
+    margin: 80px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 270px;
+}
+.outer{
+    height: 270px;
+    width: 250px ;
+}
+.inner:hover{
+    height: 250px;
+    width: 250px;
+}
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 220px;
+    width: 220px;
+  
+  
+}
+.img1{
+    background-image: url('AgraFort.jpg');
+}
+.img2{
+    background-image: url('AjantaCaves.jpg');
+}
+.img3{
+    background-image:url('TajMahal.jpeg') ;
+}
+.img4{
+    background-image: url('SunTemple.jpeg');
+}
+.img5{
+    background-image: url('KazirangaNationalPark.jpeg');
+}
+.img6{
+    background-image: url('RedFort.jpeg');
+}
+.img7{
+    background-image: url('Sundarban.jpeg');
+}
+.img8{
+    background-image: url('MahabodhiTemple.jpeg');
+}
+.img9{
+    background-image: url('CSMT.jpg');
+}
+.img10{
+    background-image: url('ValleyOfFlowers.jpg');
+}
+.img11{
+    background-image: url('Nalanda.jpg');
+}
+.img12{
+    background-image: url('QutubMinar.jpg');
+}
+.img13{
+    background-image: url('JantarMantar.jpg');
+}
+.img14{
+    background-image: url('Pattadakal.jpg');
+}
+.img15{
+    background-image: url('PinkCity.jpeg');
+}
+.img16{
+    background-image: url('HampiTemple.jpg');
+}
+.img{
+    background-size: cover;
+    height: 190px;
+    width: 190px;
+}
+.img:hover{
+    height: 210px;
+    width: 210px;
+}
+.link,a{
+    text-decoration: none;
+    font-size: larger;
+    margin-top: 25px;
+    width: 220px;
+    text-align: center;
+    font-weight: bolder;
+    color: #E3DBCB;
+}
+

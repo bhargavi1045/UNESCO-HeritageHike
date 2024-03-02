@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s linear 0s;
+}
+body{
+    background-color: #E3DBCB ;
+    color: #E3DBCB;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    
+}
+.logo{
+    margin-left: 20px;
+    background-image: url('SiteLogo.png');
+    background-size: contain;
+    width: 200px;
+    height: 60px;
+}
+.acc{
+
+    display: flex;
+    margin-right: 50px;
+    width: 300px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.MyAccount,.Support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.MyAccount:hover{
+    border-bottom: 4px solid #E3DBCB;
+}
+.Support:hover{
+    border-bottom: 4px solid #E3DBCB;
+}
+.userLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.info{
+    margin: 50px 70px;
+    font-size: 20px;
+    color: black;
+}
+.Information{
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 7%;
+    width: 600px;
+    height: 60px;
+    font-size: 45px;
+}
+.Information:hover{
+    border-bottom: 4px solid black;
+    font-size: 47px;
+    
+}
+p{
+    margin: 10px;
+    padding: 10px;
+}
+img{
+   
+    margin-left:  50px;
+    margin-right: 50px;
+    width: 90%;
+    height: 500px;
+}
+.location{
+    font-size: 20px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
